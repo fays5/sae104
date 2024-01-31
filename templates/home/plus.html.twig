@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En savoir plus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="home">Mon Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plus">En savoir plus</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container content">
+        <p style="color: white;"><div class="container">
+    <div class="text-center text-white">
+        <h2>À propos de moi</h2>
+        <p>
+            Je suis passionné par les technologies de l'information et leur impact sur notre société. Ayant commencé mon parcours dans le domaine des Réseaux et Télécommunications, je suis constamment en quête de nouvelles connaissances et de défis stimulants. Mon objectif est de contribuer à l'avancement de la technologie tout en restant conscient des enjeux éthiques et sociaux qui l'accompagnent.
+        </p>
+        <br>
+        <h2>Mes intérêts</h2>
+        <p>
+            En dehors de mes études et de ma carrière professionnelle, j'aime explorer de nouveaux horizons. Que ce soit à travers la lecture, les voyages ou les activités en plein air, je trouve toujours des occasions de m'enrichir et de découvrir de nouvelles perspectives. Je crois en l'importance de l'équilibre entre le travail et la vie personnelle pour maintenir une santé mentale et physique optimale.
+        </p>
+        <br>
+        <h2>Mes valeurs</h2>
+        <p>
+            L'intégrité, la persévérance et le respect sont des valeurs qui guident mes actions au quotidien. Je crois fermement en l'importance de l'honnêteté et de la transparence dans toutes mes interactions, que ce soit avec mes collègues, mes amis ou ma communauté. Je m'efforce toujours de dépasser mes limites et de relever les défis avec détermination et optimisme.
+        </p>
+        <br>
+        <h2>Mon engagement</h2>
+        <p>
+            En tant que membre actif de ma communauté, je m'engage à contribuer de manière positive à son développement. Que ce soit par le bénévolat, le mentorat ou la sensibilisation aux enjeux sociaux, je cherche toujours des moyens de faire une différence dans la vie des autres. Je crois en l'importance de donner en retour et de soutenir ceux qui en ont besoin.
+        </p>
+    </div>
+</div>
+</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<footer class="text-center text-white mt-5">
+    <p>Tous droits réservés © 2024 Haouchette Fayçal</p>
+</footer>
+</body>
+</html>
+
+{% endblock %}

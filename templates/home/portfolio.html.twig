@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="home">Mon Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plus">En savoir plus</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container content">
+        <h1 style="color: white;">Mon Portfolio</h1>
+        <p style="color: white;">Bienvenue dans mon portfolio ! Découvrez mes projets et réalisations dans le domaine des Réseaux et Télécommunications.</p>
+    </div>
+<div class="container">
+    <div class="text-center text-white">
+        <div class="projet-professionnel">
+            <h3>Projet Professionnel :</h3>
+            <p>
+                En tant qu'étudiant en première année dans le domaine des Réseaux et Télécommunications, je m'engage à me spécialiser dans la cybersécurité afin de jouer <br> un rôle essentiel dans la protection des systèmes informatiques contre les menaces croissantes.
+            </p>
+            <h3>Objectifs :</h3>
+            <ul>
+                <li>Développer des compétences avancées en cryptographie et en analyse de vulnérabilités pour renforcer la sécurité des données.</li>
+                <li>Approfondir mes connaissances des meilleures pratiques en matière de défense contre les cyberattaques.</li>
+                <li>Acquérir une expertise pratique dans les techniques de test d'intrusion et de gestion des incidents de sécurité.</li>
+                <li>Explorer les dernières technologies en cybersécurité telles que l'intelligence artificielle et la blockchain.</li>
+                <li>Collaborer avec des experts du domaine pour concevoir et mettre en œuvre des solutions de sécurité innovantes et efficaces.</li>
+            </ul>
+            <h3>Documents officiels :</h3>
+            <img src="mooc.png" alt="Attestation du Mooc de l'ANSII" class="img-fluid mt-3">
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<footer class="text-center text-white mt-5">
+    <p>Tous droits réservés © 2024 Haouchette Fayçal</p>
+</footer>
+</body>
+</html>
+
+{% endblock %}

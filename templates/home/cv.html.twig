@@ -1,0 +1,239 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="home">Mon Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plus">En savoir plus</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container content">
+        <h1 style="color: white;">Mon CV</h1>
+        <p style="color: white;">Vous pouvez consulter mon CV complet sur cette page pour découvrir mon parcours professionnel, mes compétences et mes expériences.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+       <img src="https://i1.wp.com/fugea.be/wp-content/uploads/2017/01/bonhomme-blanc-3d-images-gratuites-libres-de-droits22-1560x1169.jpg?ssl=1" alt="profile_pic">
+     </div>
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+           <p class="bold">Haouchette Fayçal</p>
+           <p class="regular">Etudiant</p>
+         </div>
+         <ul>
+           <li>
+             <div class="data">
+               42300, Roanne
+             </div>
+           </li>
+           <li>
+             <div class="data">
+               IUT de Roanne
+             </div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_skills">
+         <div class="title">
+           <p class="bold">Compétences</p>
+         </div>
+         <ul>
+           <li>
+             <div class="skill_name">
+               HTML
+             </div>
+             <div class="skill_progress">
+               <span style="width: 80%;"></span>
+             </div>
+             <div class="skill_per">80%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               CSS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 70%;"></span>
+             </div>
+             <div class="skill_per">70%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               Python
+             </div>
+             <div class="skill_progress">
+               <span style="width: 90%;"></span>
+             </div>
+             <div class="skill_per">90%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               JS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 50%;"></span>
+             </div>
+             <div class="skill_per">50%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               C
+             </div>
+             <div class="skill_progress">
+               <span style="width: 65%;"></span>
+             </div>
+             <div class="skill_per">65%</div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_social">
+         <div class="title">
+           <p class="bold">Contact</p>
+         </div>
+         <ul>
+           <li>
+             <div class="data">
+               <p class="semi-bold">Numéro de télephone</p>
+               <p>06 64 28 75 02</p>
+             </div>
+           </li>
+           <li>
+             <div class="data">
+               <p class="semi-bold">Mail professionnel</p>
+               <p>fayshct@gmail.com</p>
+             </div>
+           </li>
+           <li>
+             <div class="data">
+               <p class="semi-bold">Mail universitaire</p>
+               <p>faycal.haouchette@etu.univ-st-etienne.fr</p>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+           <p class="bold">A propos de moi</p>
+         </div>
+        <p>Je suis Haouchette Fayçal, actuellement étudiant en première année de BUT Réseaux et Télecommunications. Sur ce site, je partage mes réalisations, mon parcours professionnel et mes projets en cours. N'hésitez pas à explorer et à me contacter pour toute question ou collaboration. Vous avez également l'opportunité d'en apprendre plus sur moi en cliquant sur le bouton ci-dessous.</p>
+    </div>
+    <div class="resume_item resume_work">
+        <div class="title">
+           <p class="bold">Mes expériences</p>
+         </div>
+        <ul>
+            <li>
+                <div class="date">03-2020</div> 
+                <div class="info">
+                     <p class="semi-bold">Stage de découverte dans une banque</p> 
+                  <p>En classe de 3ème j'ai eu l'occasion d'assister le personnel d'une banque durant 1 semaine.</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">07-2023</div>
+              <div class="info">
+                     <p class="semi-bold">Agent de collecte chez St-Etienne Métropole</p> 
+                  <p>Durant l'été 2023 j'ai eu l'opportunité de travailler au sein d'une équipe en tant qu'agent de collecte pendant 1 mois.</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2024 - Actuellement</div>
+              <div class="info">
+                     <p class="semi-bold">Etudiant</p> 
+                  <p>BUT Réseaux et Télecommunications (IUT de Roanne)</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_education">
+      <div class="title">
+           <p class="bold">Diplomes</p>
+         </div>
+      <ul>
+            <li>
+                <div class="date">2019-2020</div> 
+                <div class="info">
+                     <p class="semi-bold">Brevet des collèges (Massenet-Fourneyron)<br>Chambon-Feugerolles</p> 
+                </div>
+            </li>
+            <li>
+              <div class="date">2022-2023</div>
+              <div class="info">
+                     <p class="semi-bold">Baccalauréat général (Jacob-Holtzer)<br>Firminy</p> 
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container content">
+    <h2>Télécharger mon CV</h2>
+    <form action="#" method="post">
+        <div class="mb-3">
+            <label for="nom" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="nom" name="nom" required pattern=".+" title="Veuillez entrer votre nom" lang="fr">
+        </div>
+        <div class="mb-3">
+            <label for="prenom" class="form-label">Prénom</label>
+            <input type="text" class="form-control" id="prenom" name="prenom" required pattern=".+" title="Veuillez entrer votre prénom" lang="fr">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Adresse e-mail</label>
+            <input type="email" class="form-control" id="email" name="email" required title="Veuillez entrer une adresse e-mail valide" lang="fr">
+        </div>
+        <div class="mb-3">
+            <label for="genre" class="form-label">Genre</label>
+            <select class="form-select" id="genre" name="genre" required lang="fr">
+                <option value="">Sélectionnez...</option>
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">
+            <a href="cvsite.png" download="cvsite.png" style="color: white; text-decoration: none;">Confirmer</a>
+        </button>
+    </form>
+</div>
+  </div>
+</div>
+<footer class="text-center text-white mt-5">
+    <p>Tous droits réservés © 2024 Haouchette Fayçal</p>
+</footer>
+</body>
+</html>
+
+{% endblock %}
